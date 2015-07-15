@@ -1,0 +1,141 @@
+h1,
+h2 {
+    font-weight: 400;
+}
+
+.wrapper {
+    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
+    color: #333;
+    width: 980px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.wrapper a {
+    color: #3b7fa6;
+}
+.wrapper a:hover {
+    border-bottom: 1px dashed #ccc;
+}
+
+.header {
+    position: fixed;
+    top: 100px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+.avatar a:hover {
+    border-bottom: none;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.name,
+.target,
+.info {
+    margin-left: 15px;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+.name-zh {
+    font-size: 1.25em;
+}
+
+.target {
+    margin-bottom: 10px;
+}
+
+.main {
+    width: 580px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.mod {
+    margin-bottom: 20px;
+}
+.mod h2 {
+    font-size: 1.125em;
+}
+.mod ul {
+    list-style-type: circle;
+    margin: 30px 20px;
+    padding: 0 20px;
+}
+.mod ul ul {
+    list-style-type: square;
+    margin: 10px 20px;
+    padding: 0 15px;
+}
+.mod ol {
+    list-style-type: hiragana;
+    margin: 30px 20px;
+    padding: 0 20px;
+}
+.mod ol ol {
+    list-style-type: lower-roman;
+    margin: 10px 20px;
+    padding: 0 15px;
+}
+
+.link-text {
+    display: none;
+}
+
+@media only screen and (max-width: 680px) {
+    .wrapper {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .header {
+        width: 80%;
+        margin: 30px auto 0;
+        position: static;
+    }
+    .main {
+        width: 90%;
+        margin: 30px auto 0;
+    }
+    .avatar {
+        margin: 0 auto 20px;
+        width: 100px;
+        height: 100px;
+    }
+    .name,
+    .target,
+    .info {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media print {
+    .wrapper {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .avatar {
+        /*display: none;*/
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    .link-text {
+        display: inline;
+        color: #444;
+    }
+    .mod {
+        margin-bottom: 80px;
+    }
+}
