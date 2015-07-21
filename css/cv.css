@@ -134,6 +134,7 @@ h2 {
     .link-text {
         display: inline;
         color: #444;
+        display: none;
     }
     .mod {
         margin-bottom: 80px;
