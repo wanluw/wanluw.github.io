@@ -64,14 +64,15 @@ h2 {
 }
 
 .mod {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .mod h2 {
     font-size: 1.125em;
+    margin-bottom: 30px
 }
 .mod ul {
     list-style-type: circle;
-    margin: 30px 20px;
+    margin-left: 20px;
     padding: 0 20px;
 }
 .mod ul ul {
@@ -81,7 +82,7 @@ h2 {
 }
 .mod ol {
     list-style-type: hiragana;
-    margin: 30px 20px;
+    margin-left: 30px;
     padding: 0 20px;
 }
 .mod ol ol {
@@ -138,7 +139,10 @@ h2 {
         display: none;
     }
     .mod {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+    }
+    .mod h2 {
+        margin-bottom: 10px;
     }
     .main {
         margin-top: 70px;
