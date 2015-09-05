@@ -125,6 +125,7 @@ h2 {
     .wrapper {
         font-size: 20px;
         padding-bottom: 0;
+        width: 1000px;
     }
     .avatar {
         /*display: none;*/
@@ -137,6 +138,12 @@ h2 {
         display: none;
     }
     .mod {
-        margin-bottom: 80px;
+        margin-bottom: 50px;
+    }
+    .main {
+        margin-top: 70px;
+    }
+    .header {
+        top: 70px;
     }
 }
