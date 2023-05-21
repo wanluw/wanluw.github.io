@@ -1,0 +1,37 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+/*  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;*/
+/*font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;*/
+}
+
+html,
+body,
+.main,
+.container {
+  height: 100%;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+
+@media (max-width: 800px) {
+  .main {
+    width: 100%;
+    padding: 40px 10px 0;
+  }
+}
